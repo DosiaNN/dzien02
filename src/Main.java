@@ -5,20 +5,11 @@ import java.util.Scanner;
 
         public static void main(String[] args) {
 
-         Scanner scanner = new Scanner(System.in);
-         System.out.println( " Jak masz na nazwisko? ");
-         String  lastName  = scanner.nextLine();
-            System.out.println(" Jak masz na imię? ");
-         String  name  = scanner.nextLine();
-            System.out.println("Ile masz lat?");
-         String  age  = scanner.nextLine();
+                int tablicaCyfr[] = new int[5];
+        tablicaCyfr = new int[] {1, 2, 3, 4, 5};
 
-
-
-
-        System.out.println(" Cześć " +  name  +  lastName  +  age );
+       System.out.println(tablicaCyfr[2]);
 
 
 }
-
 }
